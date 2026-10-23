@@ -20,6 +20,5 @@ for word in words:
 # Проверка на пустой текст
 if max_length > 0:
     print(f"Самое длинное слово: {longest_word}")
-    print(f"Его длина: {max_length} символов")
 else:
     print("Текст пуст или не содержит слов.")
