@@ -35,7 +35,6 @@ int main() {
     // 4. Вывод результата
     if (max_length > 0) {
         std::cout << "Самое длинное слово: " << longest_word << "\n";
-        std::cout << "Его длина: " << max_length << " символов\n";
     } else {
         std::cout << "Текст пуст или не содержит слов.\n";
     }
